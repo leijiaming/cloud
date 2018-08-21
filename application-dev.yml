@@ -6,7 +6,7 @@ spring:
   datasource:
     username: root
     password: 975109ljm
-    url: jdbc:mysql://127.0.0.1:3306/cloud
+    url: jdbc:mysql://127.0.0.1:3306/cloud?useUnicode=true&characterEncoding=utf8
 mybatis:
   type-aliases-package: com.hq.product.pojo
   mapper-locations: classpath:mapper/*.xml
